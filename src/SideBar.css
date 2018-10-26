@@ -1,0 +1,24 @@
+.SideBar {
+  background-color: rgb(255, 173, 21);
+  height: auto;
+  border: solid 1px black;
+}
+
+.SideBar button {
+  display: grid;
+  grid-template-rows: 20px 20px 20px 20px 20px 20px;
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  margin-bottom: 2vh;
+  background-color: rgb(255, 255, 255);
+  border: solid 2px black;
+  border-radius: 50%;
+}
+
+button:focus {
+  border: solid 2px white;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}

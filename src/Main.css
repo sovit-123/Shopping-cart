@@ -1,0 +1,44 @@
+.Main {
+  display: grid;
+  background-color: rgb(196, 196, 196);
+  height: 100%;
+  grid-template-columns: 30% 30% 3%;
+  grid-template-rows: 30% 30% 30%;
+  column-gap: 35px;
+  row-gap: 35px;
+  width: 100%;
+  transition: 2s;
+}
+
+.Main img {
+  width: 300px;
+  height: 300px;
+}
+
+.shirtImage:hover {
+  cursor: pointer;
+  border: 1px solid white;
+  box-shadow: 1px 1px 1px 0px white;
+}
+
+.shirtImage {
+  margin-left: 40px;
+  margin-top: 10px;
+  width: 300px;
+  height: 350px;
+}
+
+.addToCart {
+  width: 150px;
+  margin-left: 24%;
+  height: 40px;
+  padding-top: 3%;
+  color: orange;
+  background-color: rgb(58, 58, 58);
+}
+
+.addToCart:hover {
+    background-color: orange;
+    color: black;
+    transition: 0.5s;
+}
