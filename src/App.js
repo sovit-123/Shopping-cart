@@ -24,7 +24,7 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state.isCartClicked);
+    console.log("In App.js isCartClicked " + this.state.isCartClicked);
     return (
       <div className="App">
         <header>
